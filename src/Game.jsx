@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import MainMenu from './components/MainMenu';
-import GameScreen from './components/GameScreen';
-import CustomizationPanel from './components/CustomizationPanel';
-import Storyline from './components/Storyline';
+import MainMenu from './features/home/MainMenu';
+import GameScreen from './features/mission/GameScreen';
+import CustomizationPanel from './features/customization/CustomizationPanel';
+import Storyline from './features/story/Storyline';
 
 export default function Game() {
   const [view, setView] = useState('menu');
