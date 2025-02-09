@@ -1,14 +1,18 @@
-# The Shadows: Elite Sniper
+# Sniper Mission
 
-Immerse yourself in a narrative-driven, high-stakes elite sniper experience where you assume the role of an operative in "The Shadows" task force. Navigate through stealth operations, execute precision shots, and unravel a gripping narrative filled with intense missions and moral dilemmas.
+Sniper Mission is an interactive game simulation where you step into the shoes of an elite sniper on secret missions. Experience realistic sniping mechanics, strategic mission selection, gear customization, and an engaging narrative.
 
-## Recommended User Journeys
+## User Journeys
 
-1. [Mission Briefing](docs/journeys/mission-briefing.md) - Step through the mission parameters and objectives to prepare for your assignment.
-2. [Sniper Simulation](docs/journeys/sniper-simulation.md) - Experience a realistic simulation of sniper conditions including wind, distance, and bullet drop.
+1. [Home Menu](docs/journeys/home-menu.md) - Explore the main landing page and navigate to different game modes.
+2. [Mission Select](docs/journeys/mission-select.md) - Choose from a variety of high-stakes sniper missions.
+3. [Sniping Gameplay](docs/journeys/sniping-view.md) - Engage in a realistic sniping simulation with dynamic challenges.
+4. [Gear Customization](docs/journeys/customization.md) - Upgrade and customize your sniper gear to improve performance.
+5. [Story Dialogue](docs/journeys/story-dialogue.md) - Immerse yourself in the mission narrative and plot twists.
 
-## External API Services
+---
 
-- **Sentry**: Used for error tracking in both frontend and backend.
-- **Progressier**: Provides PWA support.
-- **Umami Analytics**: Tracks website analytics.
+Additional Details:
+- App Icon and branding are integrated from external sources.
+- PWA support and analytics ensure a smooth and trackable experience.
+- Error logging is handled by Sentry for both front-end and back-end issues.
