@@ -1,9 +1,7 @@
 # Start Mission
 
-Follow these steps to begin your covert operation:
-
-1. Open the landing page and review the mission overview.
-2. Click on the **Start Mission** button.
-3. Observe the loading state indicating that your mission is being prepared.
-4. Once the loading is complete, review your mission briefing.
-5. Use the briefing details to form your tactical approach.
+1. From the Main Menu, click on "Start Mission".
+2. The game screen loads with a canvas element representing the mission area.
+3. A loading state is shown while the mission environment is rendered.
+4. The screen displays "Mission in Progress..." as the mission begins.
+5. Use any on-screen interactions as they are implemented in the game simulation.

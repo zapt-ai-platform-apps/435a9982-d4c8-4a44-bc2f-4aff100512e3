@@ -37,8 +37,7 @@ if (import.meta.env.VITE_PUBLIC_APP_ENV !== 'development') {
   document.head.appendChild(script);
 }
 
-console.log("Sniper Mission App Initialized");
-
+console.log('Index.jsx: Rendering the root component');
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

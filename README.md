@@ -1,18 +1,20 @@
-# Sniper Mission
+# The Shadows - Elite Sniper Game
 
-Sniper Mission is an interactive game simulation where you step into the shoes of an elite sniper on secret missions. Experience realistic sniping mechanics, strategic mission selection, gear customization, and an engaging narrative.
+An immersive, web-based elite sniper simulation game where you step into the shoes of a secret task force operative. Navigate stealthy missions, experience realistic sniping mechanics, and customize your gear to complete high-stakes operations.
 
 ## User Journeys
 
-1. [Home Menu](docs/journeys/home-menu.md) - Explore the main landing page and navigate to different game modes.
-2. [Mission Select](docs/journeys/mission-select.md) - Choose from a variety of high-stakes sniper missions.
-3. [Sniping Gameplay](docs/journeys/sniping-view.md) - Engage in a realistic sniping simulation with dynamic challenges.
-4. [Gear Customization](docs/journeys/customization.md) - Upgrade and customize your sniper gear to improve performance.
-5. [Story Dialogue](docs/journeys/story-dialogue.md) - Immerse yourself in the mission narrative and plot twists.
+1. [Main Menu](docs/journeys/main-menu.md) - Navigate the game menu to start your mission, customize gear, or view the storyline.
+2. [Start Mission](docs/journeys/start-mission.md) - Dive into the mission where you experience stealth and sniping challenges.
+3. [Customize Gear](docs/journeys/customize.md) - Upgrade and customize your weapons and gear for optimal performance.
+4. [Storyline](docs/journeys/storyline.md) - Experience the rich narrative and mission briefings that drive the game forward.
 
----
+## External API Services
 
-Additional Details:
-- App Icon and branding are integrated from external sources.
-- PWA support and analytics ensure a smooth and trackable experience.
-- Error logging is handled by Sentry for both front-end and back-end issues.
+- **Sentry**: Used for error logging and monitoring in production.
+- **Progressier**: Manages Progressive Web App (PWA) features.
+- **Umami**: Tracks usage analytics.
+
+## Environment Variables
+
+The required environment variables are listed in the `.env` file.
