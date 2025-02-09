@@ -1,24 +1,25 @@
-import React, { useState } from 'react';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
+import React from 'react';
+import MissionBriefing from './components/MissionBriefing';
+import SniperSimulator from './components/SniperSimulator';
+import MadeOnZAPT from './components/MadeOnZAPT';
 
 export default function App() {
-  const [isStarting, setIsStarting] = useState(false);
-
-  const handleStartMission = () => {
-    if (isStarting) return;
-    console.log("Start Mission button clicked. Initiating mission...");
-    setIsStarting(true);
-    setTimeout(() => {
-      console.log("Mission briefing loaded.");
-      setIsStarting(false);
-    }, 2000);
-  };
-
+  console.log("App component rendered: The Shadows: Elite Sniper");
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col">
-      <Header />
-      <MainContent isStarting={isStarting} handleStartMission={handleStartMission} />
+    <div className="min-h-screen bg-darkbg text-light flex flex-col">
+      <header className="p-4 text-center">
+        <h1 className="text-4xl font-bold font-tactical">The Shadows: Elite Sniper</h1>
+        <p className="mt-2">
+          Welcome, Agent. Prepare to step into the shadows and execute your mission with precision.
+        </p>
+      </header>
+      <main className="flex-grow p-4 h-full">
+        <MissionBriefing />
+        <SniperSimulator />
+      </main>
+      <footer className="p-4 text-center">
+        <MadeOnZAPT />
+      </footer>
     </div>
   );
 }

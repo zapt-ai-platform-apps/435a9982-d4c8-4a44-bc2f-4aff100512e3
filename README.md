@@ -1,15 +1,14 @@
-# The Shadows
+# The Shadows: Elite Sniper
 
-The Shadows is an elite sniper game web app that immerses you in covert operations and secret missions. Experience advanced stealth mechanics, realistic bullet physics, diverse mission types, and an engaging narrative filled with twists and moral dilemmas.
+Immerse yourself in a narrative-driven, high-stakes elite sniper experience where you assume the role of an operative in "The Shadows" task force. Navigate through stealth operations, execute precision shots, and unravel a gripping narrative filled with intense missions and moral dilemmas.
 
-## User Journeys
+## Recommended User Journeys
 
-1. [Start Mission](docs/journeys/start-mission.md) - Embark on your first covert operation.
-2. [Upgrade Arsenal](docs/journeys/upgrade-arsenal.md) - Customize and upgrade your weapons and equipment.
-3. [Mission Briefing](docs/journeys/mission-briefing.md) - Review detailed tactical instructions before a mission.
+1. [Mission Briefing](docs/journeys/mission-briefing.md) - Step through the mission parameters and objectives to prepare for your assignment.
+2. [Sniper Simulation](docs/journeys/sniper-simulation.md) - Experience a realistic simulation of sniper conditions including wind, distance, and bullet drop.
 
 ## External API Services
 
-- **Sentry**: Used for error tracking and monitoring on both the front-end and back-end.
-- **Progressier**: Provides PWA support and offline capabilities.
-- **Umami Analytics**: Tracks website statistics.
+- **Sentry**: Used for error tracking in both frontend and backend.
+- **Progressier**: Provides PWA support.
+- **Umami Analytics**: Tracks website analytics.

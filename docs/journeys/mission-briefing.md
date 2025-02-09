@@ -1,9 +1,20 @@
 # Mission Briefing
 
-Prepare for deployment by reviewing the detailed tactical instructions:
+This journey guides you through the mission briefing process, where you prepare for your assignment as an elite sniper.
 
-1. After starting a mission, access the mission briefing section.
-2. Carefully read through the tactical map and enemy positions.
-3. Analyze the briefing details to determine your approach.
-4. Adjust your strategy based on the provided information.
-5. Confirm the briefing to commence your mission.
+## Steps
+
+1. **Access the Mission Briefing Section**
+   - Navigate to the Mission Briefing component on the main landing page.
+   - Review the list of mission objectives displayed.
+
+2. **Review Mission Details**
+   - Read through the objectives and narrative provided.
+   - Understand the critical tasks: intel gathering, target identification, environmental assessment, and extraction planning.
+
+3. **Prepare for Deployment**
+   - Ensure you fully comprehend the mission details.
+   - If needed, refresh the page for updated intelligence.
+
+4. **Proceed to the Simulation**
+   - Once informed, proceed to the Sniper Simulation journey to test your preparedness.
